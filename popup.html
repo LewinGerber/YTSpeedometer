@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Speedometer</title>
+    <style>
+        body {
+            width: 135px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 1rem;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #popup {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            color: white;
+        }
+
+        input[type=number] {
+            -moz-appearance: textfield;
+            width: 20%;
+            text-align: center;
+            border: 0;
+            outline: 0;
+            background: none;
+            color: inherit;
+            border-bottom: 1px dashed  lightgray;
+            font-size: 1rem;
+        }
+
+        span {
+            padding-left: 0.25rem;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="popup">
+      <input type="number" id="speed-input" value="1" min="0">
+      <span>x the speed</span>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

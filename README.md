@@ -1,2 +1,5 @@
 # YTSpeedometer
-A firefox extensions which makes it possible to enter any play back speed for the video.
+
+A firefox extensions which allows the user to determine the playback speed of YouTube videos. The user can enter any number he likes and is not limited by the maximum 2-time speed from the YouTube ui.
+
+
